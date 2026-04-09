@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roulette Dealer Tracker</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎰</text></svg>">
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+  <div id="app">
+    <nav id="sidebar">
+      <div class="sidebar-header">
+        <h1>Dealer Tracker</h1>
+        <p id="global-stats" class="text-muted"></p>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#dashboard" class="nav-link active" data-view="dashboard">📊 Dashboard</a></li>
+        <li><a href="#spin-logger" class="nav-link" data-view="spin-logger">🎲 Spin Logger</a></li>
+        <li><a href="#analysis" class="nav-link" data-view="analysis">🔍 Analysis</a></li>
+        <li><a href="#predictions" class="nav-link" data-view="predictions">🎯 Predictions</a></li>
+        <li><a href="#data-management" class="nav-link" data-view="data-management">💾 Data</a></li>
+      </ul>
+    </nav>
+    <main id="content"></main>
+  </div>
+  <div id="toast-container"></div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
