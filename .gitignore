@@ -1,0 +1,4 @@
+node_modules/
+dist/
+data/roulette.db
+.DS_Store
